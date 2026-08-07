@@ -8,5 +8,5 @@ WORKDIR /app
 COPY . .
 RUN make
 
-ENTRYPOINT ["./marina"]
+ENTRYPOINT ["sh", "-c", "./marina \"$0\" && tail -f /dev/null"]
 CMD ["(a&b | c)->d <-> ~e"]
