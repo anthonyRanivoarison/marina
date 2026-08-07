@@ -1,0 +1,9 @@
+.git
+.github
+*.md
+doc
+test
+*.cmo
+*.cmi
+.depend
+marina
