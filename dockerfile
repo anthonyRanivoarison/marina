@@ -9,3 +9,4 @@ COPY . .
 RUN make
 
 ENTRYPOINT ["./marina"]
+CMD ["(a&b | c)->d <-> ~e"]
